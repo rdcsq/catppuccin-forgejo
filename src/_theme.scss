@@ -328,6 +328,15 @@ $lvl3: if($isDark, $base, $crust);
   background: color.change($accent, $alpha: 0.3) !important;
 }
 
+// forgejo actions
+.action-view-right, .job-info-header {
+  background-color: $mantle !important;
+}
+
+.job-step-summary.selected {
+  background-color: $surface0 !important;
+}
+
 @import "chroma";
 @import "codemirror";
 @import "monaco";
